@@ -79,6 +79,46 @@ body {
 
 
 @layer utilities{
+  .overflwazisoseda{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+  }
+  .borderinsabgsa{
+    border-radius: 100px;
+    background: #101017;
+  }
+  .maknazingase{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 36.4px */
+  }
+  .coincapses{
+    color: #FFF;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+  }
+  .bitcoinsecson{
+    color: #8B8D8F;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+  }
+  .feargreseseeds{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+  }
   .didcastwosa{
     /* color: #E4315D; */
     font-family: "Inter";
