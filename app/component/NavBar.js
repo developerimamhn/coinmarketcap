@@ -105,8 +105,8 @@ const NavBar = () => {
     return (
         <div className={` header ${scrolled ? "scrolled" : " "} z-[150] w-full header backgronsdvg   ${
             isVisible ? "translate-y-0 transition-transform duration-300 " : "-translate-y-full transition-transform duration-300 "}`}>
-            <header className='flex justify-between items-center py-[20px] sm:py-[25px] lg:py-[30px] relative  md:overflow-hidden backgroundimage px-[24px] sm:px-[30px] lg:px-[40px]'>
-            <dev className='linersext absolute bottom-0 left-0 w-full h-[2px] z-10'></dev>
+            <header className='flex justify-between items-center py-[20px] sm:py-[25px] lg:py-[30px] relative  lg:overflow-hidden backgroundimage px-[24px] sm:px-[30px] lg:px-[40px]'>
+            <div className='linersext absolute bottom-0 left-0 w-full h-[2px] z-10'></div>
             <Link onClick={(e) => handleScrollToTop(e, "")} href='/' className='cursor-pointer relative flex  items-center justify-start Froggo-Logo'>
                 <svg xmlns="http://www.w3.org/2000/svg" className='w-full h-[20px] sm:h-[24px] 2xl:h-[30px]' viewBox="0 0 168 30" fill="none">
   <g clip-path="url(#clip0_45_180)">
@@ -119,7 +119,7 @@ const NavBar = () => {
   </defs>
                 </svg>
                 </Link>
-                <div className='flex items-center justify-center md:hidden'>
+                <div className='flex items-center justify-center lg:hidden'>
                     <button className='buttonauditelt flex items-center mr-8 gap-3.5 cursor-pointer pl-[12px] sm:pl-[13px] md:pl-[14px] lg:pl-[15px] xl:pl-[16px] 2xl:pl-[18px] py-[4px]  group pr-1'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M4 5H16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -128,7 +128,7 @@ const NavBar = () => {
                         </svg>
                         <Image src={ellipse1} alt="icon sente" className='w-[20px] sm:w-[24px] md:w-[32px] lg:w-[36px] xl:w-[40px] 2xl:w-[48px] h-[20px] sm:h-[24px] md:h-[32px] lg:h-[36px] xl:h-[40px] 2xl:h-[48px]' />
                     </button>
-                <div className=' relative top-[-11px] -left-6'>
+                    <div className=' relative top-[-11px] -left-6'>
                     
                     <div 
                         className={`transition-transform duration-300 ease-in-out ${toggle ? 'opacity-100' : 'opacity-0 -translate-x-2'}`}
@@ -146,7 +146,7 @@ const NavBar = () => {
                 </div>
                  </div>
 
-                <nav ref={menuRef} className={`mr-auto navbar-items-main absolute  sm:left-0 md:relative duration-1000 z-[99] md:opacity-100 flex justif-start md:justify-center items-start sm:items-center  md:blur-none blur-[200] md:bg-transparent bg-[#15161B] right-0 md:flex-row flex-col p-[20px] md:p-[0] md:w-fit w-full  h-full pl-[24px] sm:pl-[32px] md:pl-[25px] lg:pl-[30px] xl:pl-[48px] 2xl:pl-[60px]
+                <nav ref={menuRef} className={`mr-auto navbar-items-main absolute  sm:left-0 lg:relative duration-1000 z-[99] lg:opacity-100 flex justif-start lg:justify-center items-start sm:items-center  lg:blur-none blur-[200] lg:bg-transparent bg-[#15161B] right-0 lg:flex-row flex-col p-[20px] lg:p-[0] lg:w-fit w-full  h-full pl-[24px] sm:pl-[32px] md:pl-[25px] lg:pl-[30px] xl:pl-[48px] 2xl:pl-[60px]
                     ${toggle ? 'top-[67px] h-screen' :'-top-[600%]' }
                     ${toggle ? 'opacity-100' : 'opacity-10'} 
                     `} >
@@ -171,7 +171,7 @@ const NavBar = () => {
                         </a>
                     ))}
 
-                    <ul className='md:hidden flex flex-col md:w-fit w-full gap-[14px] mt-4 sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[30px]'>
+                    <ul className='lg:hidden flex flex-col lg:w-fit w-full gap-[14px] mt-4 sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[30px]'>
                         <div className='inpuclieaserew flex w-full items-center gap-2 py-[11px] sm:py-[12px] md:py-[13px] lg:py-[14px] xl:py-[15px] 2xl:py-[16px] px-[13px] sm:px-[14px] md:px-[15px] lg:px-[16px] xl:px-[20px] 2xl:px-[24px]'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path d="M13.125 13.125L16.5 16.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -186,7 +186,7 @@ const NavBar = () => {
                     </ul>
                 </nav>
                 
-                <ul className='md:flex hidden gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[28px] ml-atuo '>
+                <ul className='lg:flex hidden gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[28px] ml-atuo '>
                     <div className='inpuclieaserew flex items-center gap-2 py-[11px] sm:py-[12px] md:py-[13px] lg:py-[14px] xl:py-[15px] 2xl:py-[16px] px-[13px] sm:px-[14px] md:px-[15px] lg:px-[16px] xl:px-[20px] 2xl:px-[24px]'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path d="M13.125 13.125L16.5 16.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>

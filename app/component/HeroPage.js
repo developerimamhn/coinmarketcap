@@ -250,7 +250,7 @@ const HeroPage = () => {
         <div id="hero"  className='relative pb-[14px] sm:pb-[15px] md:pb-[16px] lg:pb-[20px] xl:pb-[24px] 2xl:pb-[32px]'>
           <div className='relative z-[2] overflow-hidden px-[16px] sm:px-[20px] md:px-[24px] lg:px-[32px] xl:px-[36px] 2xl:px-[40px]'>
               <div className='pt-[70px] sm:pt-[90px] md:pt-[110px] xl:pt-[100px] 2xl:pt-[120px]'>
-                <div className='grid grid-cols-1 sm:grid-cols-5 gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px]'>
+                <div className='grid grid-cols-2 sm:grid-cols-5 gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px]'>
                   {data.map((item, index) => (
                   // eslint-disable-next-line react/jsx-key
                   <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px] grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 items-end text-white relative">
@@ -286,8 +286,8 @@ const HeroPage = () => {
                   ))}
                 </div>
                 <div className=''>
-                  <div  className='grid grid-cols-12 pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px] gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px]'>
-                    <div className='col-span-4 relative rounded-[24px] overflow-hidden'>
+                  <div  className='grid grid-cols-12 pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px] gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap- [14px] xl:gap-[15px] 2xl:gap-[16px]'>
+                    <div className='col-span-12 md:col-span-4 relative rounded-[24px] overflow-hidden'>
                       <svg xmlns="http://www.w3.org/2000/svg" className='absolute  z-[1] w-1/2' viewBox="0 0 341 293" fill="none">
   <g filter="url(#filter0_f_45_289)">
     <ellipse cx="55.9201" cy="13.7001" rx="108.059" ry="36.5" transform="rotate(-118.77 55.9201 13.7001)" fill="#3861FB"/>
@@ -299,7 +299,7 @@ const HeroPage = () => {
       <feGaussianBlur stdDeviation="112" result="effect1_foregroundBlur_45_289"/>
     </filter>
   </defs>
-</svg>
+                      </svg>
                       <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
                         <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Fear and Greed Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                           <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
@@ -314,16 +314,28 @@ const HeroPage = () => {
 <path d="M34.6807 55.9192C31.2286 53.2178 30.6027 48.2112 33.5065 44.9275C47.1128 29.5407 64.1215 17.5359 83.1772 9.86978C87.2439 8.23372 91.7515 10.5005 93.1406 14.6582C94.5296 18.8158 92.2721 23.2868 88.2189 24.9562C72.1037 31.5935 57.6845 41.7706 46.0324 54.7315C43.1018 57.9913 38.1328 58.6207 34.6807 55.9192Z" fill="#FF9900"/>
 <path d="M95.6055 13.8631C94.3035 9.67743 96.637 5.20403 100.893 4.15558C117.959 -0.0481318 135.693 -0.805364 153.054 1.92836C157.384 2.61018 160.091 6.86838 159.15 11.1498C158.21 15.4312 153.978 18.1111 149.643 17.4648C134.982 15.2794 120.038 15.9176 105.617 19.3447C101.352 20.3582 96.9076 18.0488 95.6055 13.8631Z" fill="#F9D515"/>
 <path d="M161.82 11.7673C162.855 7.5077 167.156 4.87008 171.346 6.15858C194.378 13.2416 215.04 26.4916 231.086 44.4687C234.005 47.739 233.403 52.7484 229.963 55.4659C226.524 58.1834 221.552 57.577 218.606 54.3308C204.793 39.1088 187.187 27.8182 167.59 21.6153C163.411 20.2925 160.786 16.027 161.82 11.7673Z" fill="#3CED29"/>
-</svg>
+                        </svg>
 
                       </div>
-                       <div className="grid grid-cols-2 gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px]">
+                       <div className="grid grid-cols-2 gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px] overflow-hidden">
                            <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" className='w-full absolute left-0 bottom-0' viewBox="0 0 249 191" fill="none">
+                              <g filter="url(#filter0_f_45_307)">
+                                <ellipse cx="76.5" cy="208.5" rx="28.5" ry="64.5" fill="#3861FB"/>
+                              </g>
+                              <defs>
+                                <filter id="filter0_f_45_307" x="-96" y="0" width="345" height="417" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                  <feGaussianBlur stdDeviation="72" result="effect1_foregroundBlur_45_307"/>
+                                </filter>
+                              </defs>
+                            </svg>
                               <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Altcoin Season Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                               <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                               <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                               <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg></h3>
+                              </svg></h3>
                               <p className='dixccaption1 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] pt-[8px] sm:pt-[12px]'>20<span className='text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] !font-[400]'>/100</span></p>
                               <div className='flex items-center gap-4 justify-between pt-[16px] sm:pt-[20px] md:pt-[24px] lg:pt-[32px] xl:pt-[36px] 2xl:pt-[38px]'>
                                 <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Bitcoin Season</p>
@@ -337,13 +349,25 @@ const HeroPage = () => {
                                 </svg>
 
                            </div>
-                          <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
+                          <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative flex justify-between flex-col overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className='w-full absolute left-0 bottom-0' viewBox="0 0 249 191" fill="none">
+                              <g filter="url(#filter0_f_45_307)">
+                                <ellipse cx="76.5" cy="208.5" rx="28.5" ry="64.5" fill="#3861FB"/>
+                              </g>
+                              <defs>
+                                <filter id="filter0_f_45_307" x="-96" y="0" width="345" height="417" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                  <feGaussianBlur stdDeviation="72" result="effect1_foregroundBlur_45_307"/>
+                                </filter>
+                              </defs>
+                            </svg>
                               <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>CMC 100 Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                               <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                               <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                               <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                               </svg></h3>
-                              <div className='flex items-center justify-between'>
+                              <div className='flex items-center justify-between xl:flex-row flex-col'>
                                 <p className='dixccaption1 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] pt-[8px] sm:pt-[12px]'>$1,905.43</p>
                                 <p className='didcastwosa text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] pt-2 text-[#E4315D] flex items-center gap-2'>
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -367,16 +391,29 @@ const HeroPage = () => {
                            </div>
                        </div>
                     </div>
-                    <div className='col-span-8'>
-                      <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
-                        <div className='flex items-start justify-between'>
+                    <div className='col-span-12 md:col-span-8'>
+                      <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative overflow-hidden w-full">
+                        <svg className='w-1/2 absolute left-0 top-0' viewBox="0 0 526 381" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_f_45_386)">
+                        <ellipse cx="189.953" cy="55.7971" rx="145.371" ry="36.5" transform="rotate(-138.409 189.953 55.7971)" fill="#3861FB"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_f_45_386" x="-145.462" y="-268.514" width="670.829" height="648.622" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="112" result="effect1_foregroundBlur_45_386"/>
+                        </filter>
+                        </defs>
+                        </svg>
+
+                        <div className='flex items-start justify-between sm:flex-row flex-col gap-3.5 sm:gap-0'>
                           <div className=''>
-                            <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Altcoin Season Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
+                            <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Crypto Market Cap  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                             <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                             <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg></h3>
-                            <div className='flex items-center justify-start gap-[16px] sm:gap-[20px] md:gap-[24px] lg:gap-[32px] xl:gap-[36px] 2xl:gap-[40px] pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>
+                            <div className='flex items-start sm:items-center sm:flex-row flex-col justify-start gap-[16px] sm:gap-[20px] md:gap-[24px] lg:gap-[32px] xl:gap-[36px] 2xl:gap-[40px] pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>
                               <div>
                                 <p className='coincapses text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]'>Market Cap</p>
                                 <h3 className='maknazingase text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px]'>$2.71T</h3>
@@ -442,16 +479,28 @@ const HeroPage = () => {
                 </div>
                 <div className=''>
                   <div  className='grid grid-cols-12 pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px] gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px]'>
-                    <div className='col-span-8'>
+                    <div className='col-span-12 md:col-span-8'>
                       <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
-                        <div className='flex items-start justify-between'>
+                        <svg className='w-1/2 absolute left-0 top-0' viewBox="0 0 526 381" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_f_45_386)">
+                        <ellipse cx="189.953" cy="55.7971" rx="145.371" ry="36.5" transform="rotate(-138.409 189.953 55.7971)" fill="#3861FB"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_f_45_386" x="-145.462" y="-268.514" width="670.829" height="648.622" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="112" result="effect1_foregroundBlur_45_386"/>
+                        </filter>
+                        </defs>
+                        </svg>
+                        <div className='flex items-start justify-between sm:flex-row flex-col gap-3.5 sm:gap-0 '>
                           <div className=''>
                             <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Crypto ETFs Net Flow  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                             <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                             <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg></h3>
-                            <div className='flex items-center justify-start gap-[16px] sm:gap-[20px] md:gap-[24px] lg:gap-[32px] xl:gap-[36px] 2xl:gap-[40px] pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>
+                            <div className='flex items-center sm:flex-row flex-col justify-start gap-[16px] sm:gap-[20px] md:gap-[24px] lg:gap-[32px] xl:gap-[36px] 2xl:gap-[40px] pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>
                               <div className='flex items-center justify-start gap-[8px]'>
                                 <h3 className='maknazingase text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px] !text-[#0F9]'>+ $149,200,000</h3>
                                 <p className='coincapses text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]'>Mar 17, 2025</p>
@@ -461,8 +510,8 @@ const HeroPage = () => {
                           <div className='flex items-center justify-end gap-2'>
                               <div className='borderinsabgsa relative  overflow-hidden grid grid-cols-3 transition-all duration-200 ease-in-out'>
                                 <div className={`absolute top-0 z-[0] transition-all duration-300 ${
-              isCircleLeft === '30d' ? 'left-0' : isCircleLeft === '1y' ? 'left-[33.33%]' : 'left-[66.66%]'
-            } w-1/3 h-full bg-[#1E1E2B] rounded-full`}></div>
+                                  isCircleLeft === '30d' ? 'left-0' : isCircleLeft === '1y' ? 'left-[33.33%]' : 'left-[66.66%]'
+                                } w-1/3 h-full bg-[#1E1E2B] rounded-full`}></div>
                                 <button className='overflwazisoseda text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] px-[12px] sm:px-[13px] md:px-[14px] lg:px-[15px] xl:px-[16px] 2xl:px-[20px] py-[6px] md:py-[8px] xl:py-[10px] cursor-pointer relative z-[1] transition-all duration-200 ease-in-out' onClick={handleLeftClick}>30d</button>
                                 <button className='overflwazisoseda text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] px-[12px] sm:px-[13px] md:px-[14px] lg:px-[15px] xl:px-[16px] 2xl:px-[20px] py-[6px] md:py-[8px] xl:py-[10px] cursor-pointer relative z-[1] transition-all duration-200 ease-in-out' onClick={handlecenterClick}>1y</button>
                                 <button className='overflwazisoseda text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] px-[12px] sm:px-[13px] md:px-[14px] lg:px-[15px] xl:px-[16px] 2xl:px-[20px] py-[6px] md:py-[8px] xl:py-[10px] cursor-pointer relative z-[1] transition-all duration-200 ease-in-out' onClick={handleRightClick}>All</button>
@@ -694,11 +743,11 @@ const HeroPage = () => {
 <stop offset="1" stop-color="#12131A" stop-opacity="0"/>
 </linearGradient>
 </defs>
-</svg>
+                        </svg>
 
                       </div>
                     </div>
-                    <div className='col-span-4 relative rounded-[24px] overflow-hidden'>
+                    <div className='col-span-12 md:col-span-4 relative rounded-[24px] overflow-hidden'>
                       <svg xmlns="http://www.w3.org/2000/svg" className='absolute  z-[1] w-1/2' viewBox="0 0 341 293" fill="none">
                         <g filter="url(#filter0_f_45_289)">
                           <ellipse cx="55.9201" cy="13.7001" rx="108.059" ry="36.5" transform="rotate(-118.77 55.9201 13.7001)" fill="#3861FB"/>
@@ -712,67 +761,97 @@ const HeroPage = () => {
                         </defs>
                       </svg>
                       <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
-                        <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Fear and Greed Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
+                        <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Volmex Implied Volatility  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                           <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                           <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                           <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg></h3>
-                        <svg className='w-2/4 mx-auto pt-[14px] sm:pt-[15px] md:pt-[16px] lg:pt-[20px] xl:pt-[24px] 2xl:pt-[30px]' viewBox="0 0 265 215" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M107.758 96.4682V92.2807L118.867 81.3901C119.93 80.3172 120.815 79.364 121.523 78.5307C122.232 77.6974 122.763 76.8901 123.117 76.1088C123.471 75.3276 123.648 74.4942 123.648 73.6088C123.648 72.5984 123.419 71.7338 122.961 71.0151C122.503 70.2859 121.872 69.7234 121.07 69.3276C120.268 68.9317 119.357 68.7338 118.336 68.7338C117.284 68.7338 116.362 68.9526 115.57 69.3901C114.779 69.8172 114.164 70.4265 113.727 71.2182C113.299 72.0099 113.086 72.9526 113.086 74.0463H107.57C107.57 72.0151 108.034 70.2494 108.961 68.7494C109.888 67.2494 111.164 66.088 112.789 65.2651C114.424 64.4422 116.299 64.0307 118.414 64.0307C120.56 64.0307 122.445 64.4317 124.07 65.2338C125.695 66.0359 126.956 67.1349 127.852 68.5307C128.758 69.9265 129.211 71.5203 129.211 73.3119C129.211 74.5099 128.982 75.687 128.523 76.8432C128.065 77.9995 127.258 79.2807 126.102 80.687C124.956 82.0932 123.346 83.7963 121.273 85.7963L115.758 91.4057V91.6245H129.695V96.4682H107.758ZM146.211 96.9057C144.128 96.9057 142.263 96.5151 140.617 95.7338C138.971 94.9422 137.664 93.8588 136.695 92.4838C135.737 91.1088 135.227 89.5359 135.164 87.7651H140.789C140.893 89.0776 141.461 90.1505 142.492 90.9838C143.523 91.8067 144.763 92.2182 146.211 92.2182C147.346 92.2182 148.357 91.9578 149.242 91.437C150.128 90.9161 150.826 90.1922 151.336 89.2651C151.846 88.338 152.096 87.2807 152.086 86.0932C152.096 84.8849 151.841 83.8119 151.32 82.8745C150.799 81.937 150.086 81.2026 149.18 80.6713C148.273 80.1297 147.232 79.8588 146.055 79.8588C145.096 79.8484 144.154 80.0255 143.227 80.3901C142.299 80.7547 141.565 81.2338 141.023 81.8276L135.789 80.9682L137.461 64.4682H156.023V69.312H142.258L141.336 77.7963H141.523C142.117 77.0984 142.956 76.5203 144.039 76.0619C145.122 75.5932 146.31 75.3588 147.602 75.3588C149.539 75.3588 151.268 75.8172 152.789 76.7338C154.31 77.6401 155.508 78.8901 156.383 80.4838C157.258 82.0776 157.695 83.9005 157.695 85.9526C157.695 88.0672 157.206 89.9526 156.227 91.6088C155.258 93.2547 153.909 94.5515 152.18 95.4995C150.461 96.437 148.471 96.9057 146.211 96.9057Z" fill="white"/>
-                      <path d="M117.393 126.468V114.832H124.371V116.082H118.803V120.014H123.848V121.264H118.803V126.468H117.393ZM129.621 126.65C128.78 126.65 128.054 126.464 127.445 126.093C126.839 125.718 126.371 125.195 126.041 124.525C125.715 123.851 125.553 123.067 125.553 122.173C125.553 121.279 125.715 120.491 126.041 119.809C126.371 119.124 126.829 118.589 127.416 118.207C128.007 117.82 128.696 117.627 129.484 117.627C129.939 117.627 130.388 117.703 130.831 117.855C131.274 118.006 131.678 118.252 132.041 118.593C132.405 118.93 132.695 119.377 132.911 119.934C133.126 120.491 133.234 121.177 133.234 121.991V122.559H126.507V121.4H131.871C131.871 120.908 131.772 120.468 131.575 120.082C131.382 119.695 131.106 119.391 130.746 119.167C130.39 118.944 129.969 118.832 129.484 118.832C128.95 118.832 128.488 118.964 128.098 119.23C127.712 119.491 127.414 119.832 127.206 120.252C126.998 120.673 126.893 121.124 126.893 121.605V122.377C126.893 123.036 127.007 123.595 127.234 124.053C127.465 124.508 127.786 124.855 128.195 125.093C128.604 125.328 129.079 125.445 129.621 125.445C129.973 125.445 130.291 125.396 130.575 125.298C130.863 125.195 131.111 125.044 131.32 124.843C131.528 124.639 131.689 124.385 131.803 124.082L133.098 124.445C132.962 124.885 132.732 125.271 132.411 125.605C132.089 125.934 131.691 126.192 131.217 126.377C130.744 126.559 130.212 126.65 129.621 126.65ZM137.842 126.673C137.289 126.673 136.787 126.569 136.337 126.36C135.886 126.148 135.528 125.843 135.263 125.445C134.998 125.044 134.865 124.559 134.865 123.991C134.865 123.491 134.964 123.086 135.161 122.775C135.357 122.461 135.621 122.214 135.95 122.036C136.28 121.858 136.643 121.726 137.041 121.639C137.443 121.548 137.846 121.476 138.251 121.423C138.782 121.355 139.212 121.303 139.541 121.269C139.875 121.231 140.117 121.169 140.268 121.082C140.424 120.995 140.501 120.843 140.501 120.627V120.582C140.501 120.021 140.348 119.586 140.041 119.275C139.738 118.964 139.278 118.809 138.661 118.809C138.02 118.809 137.518 118.949 137.155 119.23C136.791 119.51 136.536 119.809 136.388 120.127L135.115 119.673C135.342 119.142 135.645 118.73 136.024 118.434C136.407 118.135 136.823 117.927 137.274 117.809C137.729 117.688 138.176 117.627 138.615 117.627C138.895 117.627 139.217 117.661 139.581 117.73C139.948 117.794 140.303 117.928 140.643 118.133C140.988 118.338 141.274 118.646 141.501 119.059C141.729 119.472 141.842 120.025 141.842 120.718V126.468H140.501V125.286H140.433C140.342 125.476 140.191 125.678 139.979 125.894C139.767 126.11 139.484 126.294 139.132 126.445C138.78 126.597 138.35 126.673 137.842 126.673ZM138.047 125.468C138.577 125.468 139.024 125.364 139.388 125.156C139.755 124.947 140.032 124.678 140.217 124.349C140.407 124.019 140.501 123.673 140.501 123.309V122.082C140.445 122.15 140.32 122.213 140.126 122.269C139.937 122.322 139.717 122.37 139.467 122.411C139.221 122.449 138.981 122.483 138.746 122.514C138.515 122.54 138.327 122.563 138.183 122.582C137.835 122.627 137.509 122.701 137.206 122.803C136.907 122.902 136.664 123.052 136.479 123.252C136.297 123.449 136.206 123.718 136.206 124.059C136.206 124.525 136.378 124.877 136.723 125.116C137.071 125.351 137.513 125.468 138.047 125.468ZM144.29 126.468V117.741H145.585V119.059H145.676C145.835 118.627 146.123 118.277 146.54 118.008C146.956 117.739 147.426 117.605 147.949 117.605C148.047 117.605 148.17 117.606 148.318 117.61C148.466 117.614 148.578 117.62 148.653 117.627V118.991C148.608 118.98 148.504 118.963 148.341 118.94C148.182 118.913 148.013 118.9 147.835 118.9C147.411 118.9 147.032 118.989 146.699 119.167C146.369 119.341 146.108 119.584 145.915 119.894C145.725 120.201 145.631 120.552 145.631 120.945V126.468H144.29Z" fill="#515355"/>
-                      <path d="M9.52316 149.934C5.1832 150.55 1.14026 147.532 0.785505 143.163C-0.401555 128.543 0.852258 113.809 4.51332 99.5669C8.17439 85.3253 14.182 71.8128 22.2724 59.5781C24.6903 55.9217 29.6876 55.2274 33.1922 57.8604C36.6969 60.4934 37.3785 65.4553 34.9907 69.1314C28.1356 79.685 23.0295 91.2969 19.8875 103.519C16.7456 115.741 15.6187 128.376 16.5342 140.927C16.8532 145.299 13.8631 149.317 9.52316 149.934Z" fill="#E4315D"/>
-                      <path d="M255.479 149.92C259.819 150.536 263.862 147.517 264.216 143.148C265.401 128.528 264.146 113.793 260.483 99.5522C256.82 85.311 250.811 71.7992 242.719 59.5654C240.301 55.9093 235.304 55.2156 231.799 57.849C228.295 60.4823 227.614 65.4443 230.002 69.1201C236.859 79.673 241.966 91.2843 245.109 103.506C248.253 115.728 249.381 128.363 248.467 140.914C248.149 145.286 251.139 149.304 255.479 149.92Z" fill="#00FF99"/>
-                      <path d="M34.6807 55.9192C31.2286 53.2178 30.6027 48.2112 33.5065 44.9275C47.1128 29.5407 64.1215 17.5359 83.1772 9.86978C87.2439 8.23372 91.7515 10.5005 93.1406 14.6582C94.5296 18.8158 92.2721 23.2868 88.2189 24.9562C72.1037 31.5935 57.6845 41.7706 46.0324 54.7315C43.1018 57.9913 38.1328 58.6207 34.6807 55.9192Z" fill="#FF9900"/>
-                      <path d="M95.6055 13.8631C94.3035 9.67743 96.637 5.20403 100.893 4.15558C117.959 -0.0481318 135.693 -0.805364 153.054 1.92836C157.384 2.61018 160.091 6.86838 159.15 11.1498C158.21 15.4312 153.978 18.1111 149.643 17.4648C134.982 15.2794 120.038 15.9176 105.617 19.3447C101.352 20.3582 96.9076 18.0488 95.6055 13.8631Z" fill="#F9D515"/>
-                      <path d="M161.82 11.7673C162.855 7.5077 167.156 4.87008 171.346 6.15858C194.378 13.2416 215.04 26.4916 231.086 44.4687C234.005 47.739 233.403 52.7484 229.963 55.4659C226.524 58.1834 221.552 57.577 218.606 54.3308C204.793 39.1088 187.187 27.8182 167.59 21.6153C163.411 20.2925 160.786 16.027 161.82 11.7673Z" fill="#3CED29"/>
-                      </svg>
+                        <svg className='w-full mx-auto pt-[20px] sm:pt-[24px] md:pt-[32px] lg:pt-[36px] xl:pt-[40px] 2xl:pt-[49px]' viewBox="0 0 520 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="261" height="24" rx="8" fill="#FF9900"/>
+                        <rect x="265" width="89" height="24" rx="8" fill="#627FE7"/>
+                        <rect x="358" width="162" height="24" rx="8" fill="#1A1A25"/>
+                        </svg>
+                        <div className='flex items-start flex-col gap-[13px] sm:gap-[14px] md:gap-[15px] lg:gap-[16px] xl:gap-[20px] 2xl:gap-[24px]'>
+                          <div className='flex items-center justify-between w-full pt-[14px] sm:pt-[15px] md:pt-[16px] lg:pt-[20px] xl:pt-[24px] 2xl:pt-[32px]'>
+                            <div className='flex items-center gap-[10px] sm:gap-[11px] md:gap-[12px]'>
+                              <div className='w-[13px] sm:w-[14px] md:w-[15px] lg:w-[16px] xl:w-[20px] 2xl:w-[24px] h-[13px] sm:h-[14px] md:h-[15px] lg:h-[16px] xl:h-[20px] 2xl:h-[24px] bg-[#F90] rounded-[6px]'></div>
+                              <p className='bitconlapdiws text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]'>Bitcoin</p>
+                            </div>
+                            <div className='bitconlapdiws'>60.8%</div>
+                          </div>
+                          <div className='flex items-center justify-between w-full'>
+                            <div className='flex items-center gap-[10px] sm:gap-[11px] md:gap-[12px]'>
+                              <div className='w-[13px] sm:w-[14px] md:w-[15px] lg:w-[16px] xl:w-[20px] 2xl:w-[24px] h-[13px] sm:h-[14px] md:h-[15px] lg:h-[16px] xl:h-[20px] 2xl:h-[24px] bg-[#627FE7] rounded-[6px]'></div>
+                              <p className='bitconlapdiws text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]'>Ethereum</p>
+                            </div>
+                            <div className='bitconlapdiws'>8.5%</div>
+                          </div>
+                          <div className='flex items-center justify-between w-full'>
+                            <div className='flex items-center gap-[10px] sm:gap-[11px] md:gap-[12px]'>
+                              <div className='w-[13px] sm:w-[14px] md:w-[15px] lg:w-[16px] xl:w-[20px] 2xl:w-[24px] h-[13px] sm:h-[14px] md:h-[15px] lg:h-[16px] xl:h-[20px] 2xl:h-[24px] bg-[#1A1A25] rounded-[6px]'></div>
+                              <p className='bitconlapdiws text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]'>Others</p>
+                            </div>
+                            <div className='bitconlapdiws'>30.7%</div>
+                          </div>
+                        </div>
                       </div>
                        <div className="grid grid-cols-2 gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px]">
-                           <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
-                              <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Altcoin Season Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
+                           <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className='w-full absolute left-0 bottom-0' viewBox="0 0 249 191" fill="none">
+                              <g filter="url(#filter0_f_45_307)">
+                                <ellipse cx="76.5" cy="208.5" rx="28.5" ry="64.5" fill="#3861FB"/>
+                              </g>
+                              <defs>
+                                <filter id="filter0_f_45_307" x="-96" y="0" width="345" height="417" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                  <feGaussianBlur stdDeviation="72" result="effect1_foregroundBlur_45_307"/>
+                                </filter>
+                              </defs>
+                            </svg>
+                              <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Open Interest  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                               <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                               <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                               <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg></h3>
-                              <p className='dixccaption1 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] pt-[8px] sm:pt-[12px]'>20<span className='text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] !font-[400]'>/100</span></p>
-                              <div className='flex items-center gap-4 justify-between pt-[16px] sm:pt-[20px] md:pt-[24px] lg:pt-[32px] xl:pt-[36px] 2xl:pt-[38px]'>
-                                <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Bitcoin Season</p>
-                                <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Altcoin Season</p>
+                              <div className='flex items-center gap-4 justify-between pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[100px]'>
+                                <div className=''>
+                                  <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Perpetuals</p>
+                                  <h3 className='maerksinsepoins text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px]'>$376.87B</h3>
+                                </div>
+                                <div className=''>
+                                  <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Futures</p>
+                                  <h3 className='maerksinsepoins text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px]'>$5.2B</h3>
+                                </div>
                               </div>
-                              <svg className='w-full pt-[8px] md:pt-[12px]' viewBox="0 0 232 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="55" height="8" rx="4" fill="#FF9900"/>
-                                <rect x="59" width="55" height="8" rx="4" fill="#F9D515"/>
-                                <rect x="118" width="55" height="8" rx="4" fill="#3CED29"/>
-                                <rect x="177" width="55" height="8" rx="4" fill="#1DE997"/>
-                                </svg>
-
                            </div>
-                          <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative">
-                              <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>CMC 100 Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
+                          <div className="congrothsecton p-[12px] sm:p-[13px] md:p-[14px] lg:p-[15px] xl:p-[16px] 2xl:p-[20px]  relative overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className='w-full absolute left-0 bottom-0' viewBox="0 0 249 191" fill="none">
+                              <g filter="url(#filter0_f_45_307)">
+                                <ellipse cx="76.5" cy="208.5" rx="28.5" ry="64.5" fill="#3861FB"/>
+                              </g>
+                              <defs>
+                                <filter id="filter0_f_45_307" x="-96" y="0" width="345" height="417" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                  <feGaussianBlur stdDeviation="72" result="effect1_foregroundBlur_45_307"/>
+                                </filter>
+                              </defs>
+                            </svg>
+                              <h3 className='feargreseseeds text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] flex items-center justify-start  gap-[8px]'>Volmex IV Index  <svg xmlns="http://www.w3.org/2000/svg" className='w-[11px] sm:w-[12px] md:w-[13px] lg:w-[14px] xl:w-[15px] 2xl:w-[16px]' viewBox="0 0 16 16" fill="none">
                               <path d="M14.6666 7.99998C14.6666 4.31808 11.6818 1.33331 7.99992 1.33331C4.31802 1.33331 1.33325 4.31808 1.33325 7.99998C1.33325 11.6818 4.31802 14.6666 7.99992 14.6666C11.6818 14.6666 14.6666 11.6818 14.6666 7.99998Z" stroke="#A1A8AF" stroke-width="1.2"/>
                               <path d="M8 11.5L8 7.5" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                               <path d="M7.99463 5.33331H8.00063" stroke="#A1A8AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg></h3>
-                              <div className='flex items-center justify-between'>
-                                <p className='dixccaption1 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] pt-[8px] sm:pt-[12px]'>$1,905.43</p>
-                                <p className='didcastwosa text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] pt-2 text-[#E4315D] flex items-center gap-2'>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                  <path d="M20 11V16H15" stroke="#E4315D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  <path d="M20 16L15 11C14.1174 10.1174 13.6762 9.67615 13.1346 9.62737C13.045 9.6193 12.955 9.6193 12.8654 9.62737C12.3238 9.67615 11.8826 10.1174 11 11C10.1174 11.8826 9.67615 12.3238 9.13457 12.3726C9.04504 12.3807 8.95496 12.3807 8.86543 12.3726C8.32385 12.3238 7.88256 11.8826 7 11L4 8" stroke="#E4315D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                                  0.31%</p>
-                              </div>
-                              <div className='flex items-center gap-4 justify-between pt-[10px] sm:pt-[11px] md:pt-[12px] lg:pt-[13px] xl:pt-[14px] 2xl:pt-[15px]'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className='w-full' viewBox="0 0 234 64" fill="none">
-                                <path d="M214.535 47.0211C220.844 62.1014 229.501 62.6014 232.962 63.6014C236.424 64.6014 0.999985 63.4046 0.999985 63.4046V3.8781L7.87753 5.17751C8.95528 5.38114 10.027 4.8621 10.8204 4.10484C12.4153 2.58269 14.6924 1.60685 16.2071 1.0816C17.2539 0.718596 18.415 0.610323 19.2466 1.34242C24.497 5.9644 35.2421 30.8408 41.6906 36.9737C42.862 38.0878 44.7359 38.4916 45.9197 37.3908C50.2564 33.3578 48.9539 17.0523 54.6547 17.531C64.4101 20.8077 64.8533 40.4678 72.9828 40.4678C80.3521 39.407 76.5674 25.4676 84.7844 13.6593C85.2493 12.9913 86.0328 12.578 86.8055 12.8333C95.5373 15.7194 108.924 46.3209 123.386 43.1983C129.889 41.56 126.194 22.446 133.24 22.446C136.839 22.446 139.462 33.7484 146.661 40.5042C147.266 41.0717 148.227 40.8648 148.639 40.1453C156.279 26.8123 160.494 42.9895 165.216 36.645C174.971 23.5382 181.625 52.5434 185.811 43.1983C191.23 35.0066 198.968 50.1494 203.154 54.6667C207.339 59.1841 208.031 38.2833 214.535 47.0211Z" fill="url(#paint0_linear_45_339)"/>
-                                <path d="M232.962 63.4046C226.903 64.6014 218.72 56.1814 214.535 47.0211C208.032 38.2833 207.339 59.1841 203.154 54.6667C198.969 50.1494 191.231 35.0066 185.811 43.1983C181.626 52.5434 174.972 23.5382 165.217 36.645C160.494 42.9895 156.28 26.8123 148.64 40.1453C148.227 40.8648 147.267 41.0717 146.662 40.5042C139.463 33.7484 136.839 22.446 133.241 22.446C126.195 22.446 129.89 41.56 123.386 43.1983C108.925 46.3209 95.538 15.7194 86.8061 12.8333C86.0334 12.578 85.2499 12.9913 84.7851 13.6593C76.568 25.4676 80.3527 39.407 72.9835 40.4678C64.854 40.4678 64.4108 20.8077 54.6554 17.531C48.9546 17.0523 50.2571 33.3578 45.9203 37.3908C44.7366 38.4916 42.8627 38.0878 41.6913 36.9737C35.2427 30.8408 24.4977 5.96442 19.2473 1.34243C18.4157 0.610325 17.2546 0.718597 16.2078 1.0816C14.6931 1.60685 12.416 2.58269 10.8211 4.10484C10.0277 4.8621 8.956 5.38114 7.87824 5.17751L1.00071 3.8781" stroke="#E4315D" stroke-width="0.654206"/>
-                                <defs>
-                                  <linearGradient id="paint0_linear_45_339" x1="115.019" y1="0.546129" x2="114.439" y2="66.123" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#E4315D" stop-opacity="0.51"/>
-                                    <stop offset="0.946832" stop-color="#E4315D" stop-opacity="0"/>
-                                  </linearGradient>
-                                </defs>
-                              </svg>
+                            </svg></h3>
+                              <div className='flex items-center gap-4 justify-between pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[100px]'>
+                                <div className=''>
+                                  <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Bitcoin</p>
+                                  <h3 className='maerksinsepoins text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px]'>56.11</h3>
+                                </div>
+                                <div className=''>
+                                  <p className='bitcoinsecson text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>Ethereum</p>
+                                  <h3 className='maerksinsepoins text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px]'>72.65</h3>
+                                </div>
                               </div>
                            </div>
                        </div>

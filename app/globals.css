@@ -79,6 +79,21 @@ body {
 
 
 @layer utilities{
+  .maerksinsepoins{
+    color: #FFF;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+  }
+  .bitconlapdiws{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
   .overflwazisoseda{
     color: #FFF;
     font-family: 'Inter';
